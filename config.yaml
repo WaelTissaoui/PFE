@@ -1,0 +1,4 @@
+
+language : "fr"
+
+pipeline: "supervised_embeddings"
