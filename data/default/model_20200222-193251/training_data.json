@@ -1,0 +1,141 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "salutation",
+        "text": "salut"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "je veux manger"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "repas",
+            "entity": "type_repas"
+          }
+        ],
+        "text": "je veux avoir un repas"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "je cherche un endroit a manger"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "emplacement ",
+            "entity": "lieu"
+          }
+        ],
+        "text": "je cherche un endroit dans emplacement "
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "cuisine",
+            "entity": "type_repas"
+          }
+        ],
+        "text": "montrez-moi les restaurants cuisine"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "cuisine ",
+            "entity": "type_repas"
+          },
+          {
+            "start": 40,
+            "end": 51,
+            "value": "emplacement",
+            "entity": "lieu"
+          }
+        ],
+        "text": "montrez-moi un endroit  cuisine dans le emplacement"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "cuisine ",
+            "entity": "type_repas"
+          }
+        ],
+        "text": "je cherche un endroit  cuisine "
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "n'importe où dans emplacement"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "cuisine",
+            "entity": "type_repas"
+          },
+          {
+            "start": 36,
+            "end": 47,
+            "value": "emplacement",
+            "entity": "lieu"
+          }
+        ],
+        "text": "Je cherche de la nourriture cuisine emplacement"
+      },
+      {
+        "intent": "salutation",
+        "text": "bonjour"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "by"
+      },
+      {
+        "intent": "bye",
+        "text": "tchaw"
+      },
+      {
+        "intent": "bye",
+        "text": "ciao"
+      },
+      {
+        "intent": "salutation",
+        "text": "comment cv?"
+      },
+      {
+        "intent": "salutation",
+        "text": "bonjourné"
+      },
+      {
+        "intent": "salutation",
+        "text": "bonsoir"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

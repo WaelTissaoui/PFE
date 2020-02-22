@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\lenovo\\Desktop\\PFE\\./data/default\\model_20200222-193251\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\lenovo\\Desktop\\PFE\\./data/default\\model_20200222-193251\\component_5_EmbeddingIntentClassifier.ckpt"
